@@ -2,12 +2,21 @@
 body{
     background: rgb(238,174,202);
 background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+     width: 100%;
+    justify-content: space-evenly;
+    background-color: #2f4f4f;
+    display: flex;
 }
 
 .creditos{
     background: rgb(2,0,36);
 background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 26%, rgba(9,38,121,1) 39%, rgba(0,212,255,1) 100%);
+     width: 100%;
+    justify-content: space-evenly;
+    background-color: #2f4f4f;
+    display: flex;
 }
+
 main{
     margin-left: 500px;
     margin-right: 500px;
@@ -65,4 +74,9 @@ p{
 
 .contato{
     margin-left: 100px;
+}
+
+img{
+    width: 45%;
+    max-width: 600px;
 }
